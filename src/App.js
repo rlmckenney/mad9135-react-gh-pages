@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
-const Home = () => <h1>Home</h1>
+const Home = () => <h1>Home on Netlify</h1>
 const About = () => <h1>About</h1>
 const Contact = () => <h1>Contact</h1>
 
