@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
 const Home = () => <h1>Home</h1>
 const About = () => <h1>About</h1>
