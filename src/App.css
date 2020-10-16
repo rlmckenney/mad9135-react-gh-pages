@@ -1,0 +1,8 @@
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  background-color: hsl(220, 15%, 18%)
+}
+nav a {color: white}
