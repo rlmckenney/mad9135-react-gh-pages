@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import './App.css'
 
 const Home = () => <h1>Home</h1>
 const About = () => <h1>About</h1>
@@ -11,9 +12,15 @@ function App () {
       <Router>
         <header>
           <nav>
-            <Link to='/'>Home</Link>
-            <Link to='/about'>About</Link>
-            <Link to='/contact'>Contact</Link>
+            <Link className='nav-link' to='/'>
+              Home
+            </Link>
+            <Link className='nav-link' to='/about'>
+              About
+            </Link>
+            <Link className='nav-link' to='/contact'>
+              Contact
+            </Link>
           </nav>
         </header>
         <Switch>

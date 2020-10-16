@@ -5,4 +5,4 @@ nav {
   padding: 1rem 0;
   background-color: hsl(220, 15%, 18%)
 }
-nav a {color: white}
+nav .nav-link {color: white}
